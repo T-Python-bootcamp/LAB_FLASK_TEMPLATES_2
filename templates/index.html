@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="
+      background: rgb(255, 255, 255);
+      background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(110, 82, 129, 1) 100%
+      );
+    ">
+    <div style="
+    display: flex; 
+    flex-direction: column;
+     justify-content: center;
+      align-items: center;">
+
+        <h2>Welcome to Quizz!</h2>
+        <h4>This quiz is about disney villians, lets see how much you lnow your favorite villians!</h4>
+        <form method="POST">
+            <h3>- Who was Ursula from the little mermaid?</h3>
+            <input type="radio" id="fairy" name="ursula" value="false">
+            <label for="fairy">Fairy god-mother</label><br>
+            <input type="radio" id="savior" name="ursula" value="false">
+            <label for="savior">Arial's savior</label><br>
+            <input type="radio" id="witch" name="ursula" value="true">
+            <label for="witch">Witch of the sea</label><br>
+            <hr>
+            <h3>- What did Scar from the Lion King do?</h3>
+            <input type="radio" id="stayed" name="scar" value="false">
+            <label for="stayed">He stayed beside his brother the king</label><br>
+            <input type="radio" id="killed" name="scar" value="true">
+            <label for="killed">He killed his brother</label><br>
+            <input type="radio" id="nothing" name="scar" value="false">
+            <label for="nothing">He did nothing</label><br>
+            <hr>
+            <h3>- Why did Malefacent curse the 18 years old princess?</h3>
+            <input type="radio" id="revenge" name="malefacent" value="true">
+            <label for="revenge">To revenge from her father</label><br>
+            <input type="radio" id="bored" name="malefacent" value="false">
+            <label for="bored">Cause she was bored</label><br>
+            <input type="radio" id="jealous" name="malefacent" value="false">
+            <label for="jealous">She was jealous</label><br>
+            <hr>
+            <h3>- Who was Hades in Hercules?</h3>
+            <input type="radio" id="butler" name="hades" value="false">
+            <label for="butler">He was the butler</label><br>
+            <input type="radio" id="father" name="hades" value="false">
+            <label for="father">He was Hercules's real father</label><br>
+            <input type="radio" id="underworld" name="hades" value="true">
+            <label for="underworld">He was his uncle and the God of the Under world</label><br>
+            <hr>
+            <input type="submit" value="count it" />
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
